@@ -7,7 +7,7 @@ type: home
 
 {% if site.posts.size > 0 %}
     <ul class="articles-pane">
-    {% for post in site.posts limit:5 %}
+    {% for post in site.posts limit:9 %}
         <li class="article-block">
             <h3 class="article-block"><a href="{{ post.url }}">{{ post.title }}</a></h3>
             {{ post.excerpt }}
