@@ -6,10 +6,10 @@ type: home
 <h1>Recent Posts</h1>
 
 {% if site.posts.size > 0 %}
-    <ul>
+    <ul class="articles-pane">
     {% for post in site.posts limit:5 %}
-        <li>
-            <strong><a href="{{ post.url }}">{{ post.title }}</a></strong> / <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b %-d, %Y'}}</time>
+        <li class="article-block">
+            <h3 class="article-block"><a href="{{ post.url }}">{{ post.title }}</a></h3>
             {{ post.excerpt }}
         </li>
     {% endfor %}
