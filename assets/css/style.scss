@@ -3,13 +3,13 @@
 
 @import 'jekyll-theme-cayman';
 
-.articles-pane {
+.posts-pane {
   list-style: none;
   list-style-type: none;
   padding: 0;
 }
 
-li.article-block {
+li.post-block {
   display: inline-block;
   padding: 1rem;
   text-align: left;
@@ -24,6 +24,6 @@ li.article-block {
   }
 }
 
-h3.article-block {
+h3.post-block {
   margin-bottom: 0;
 }
