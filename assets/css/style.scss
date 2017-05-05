@@ -1,0 +1,29 @@
+---
+---
+
+@import 'jekyll-theme-cayman';
+
+.articles-pane {
+  list-style: none;
+  list-style-type: none;
+  padding: 0;
+}
+
+li.article-block {
+  display: inline-block;
+  padding: 1rem;
+  text-align: left;
+  @include large {
+    width: 32.9505%;
+  }
+  @include medium {
+    width: 49.42575%;
+  }
+  @include small {
+    width: 98.8515%;
+  }
+}
+
+h3.article-block {
+  margin-bottom: 0;
+}
